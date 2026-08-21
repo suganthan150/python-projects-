@@ -1,0 +1,9 @@
+a=int(input("tamil mark:"))
+b=int(input("english mark:"))
+c=int(input("maths mark:"))
+d=int(input("science mark:"))
+e=int(input("social mark:"))
+g=a+b+c+d+e
+print("total mark:",g)
+f=g/5
+print("average:",f)
