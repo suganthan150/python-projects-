@@ -1,0 +1,46 @@
+import tkinter
+from tkinter import *
+s=Tk()
+s.geometry("500x500")
+s.config(bg="grey")
+e=Label(s,text="Name:",font=("Script MT Bold",15),bg="red",fg="yellow").place(x=10,y=10)
+e=Entry(s)
+e.place(x=100,y=10)
+m=Label(s,text="Emp code",font=("Script MT Bold",15),bg="red",fg="yellow").place(x=10,y=60)
+m=Entry(s)
+m.place(x= 100,y=60)
+h=Label(s,text="Branch",font=("Script MT Bold",19),bg="red",fg="yellow").place(x=10,y=100)
+h=Entry(s)
+h.place(x=100,y=100)
+def sal():
+  if(h.get()=="hr"):
+    a=int(m.get())
+    b=int(n.get())
+    sal=5000
+    tot=b*sal
+    bon=tot*25/100
+    tt=tot+bon
+    w=Label(s,text=(tot,"/",bon,"/",tt),font=("Script MT Bold",19),bg="red",fg="yellow").place(x=180,y=180)
+  elif(h.get()=="vp"):
+    a=int(m.get())
+    b=int(n.get())
+    sal=3000
+    tot=b*sal
+    bon=tot*20/100
+    tt=tot+bon
+    q=Label(s,text=(tot,"/",bon,"/",tt),font=("Script MT Bold",19),bg="red",fg="yellow").place(x=180,y=180)
+  elif(h.get()=="emp"):
+    a=int(m.get())
+    b=int(n.get())
+    sal=1000
+    tot=b*sal
+    bon=tot*15/100
+    tt=tot+bon
+    e=Label(s,text=(tot,"/",bon,"/",tt),font=("Script MT Bold",15),bg="red",fg="yellow").place(x=180,y=180)
+n=Label(s,text="Enter the no of days you worked:",font=("Script MT Bold",15),bg="red",fg="yellow").place(x=10,y=140)
+n=Entry(s)
+n.place(x=300,y=140)
+r=Button(s,text="salary/bonus/total",font=("Script MT Bold",15),bg="red",fg="yellow",command=sal)
+r.place(x=10,y=180)                                                                                                         
+                                                                                 
+
