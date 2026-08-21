@@ -1,0 +1,72 @@
+print("              SUGU LIBRARY")
+l=int(input("Enter the number of loops:"))
+for i in range(0,l):
+   print("1.lend")
+   print("2.return")
+   choice=int(input("Enter your choice:"))
+   if(choice==1):
+      print("Section.1=fiction books")
+      print("Section.2=study books")
+      print("Section.3=history books")
+      choie=int(input("Enter your choice="))
+      if(choie==1):
+            fict=['the ring','god war','the great wall']
+            print(fict)
+            x=input("Enter the book name:")
+            fict.remove(x)
+            print(fict)
+      elif(choie==2):
+            stud=['Science','Tamil','English']
+            print(stud)
+            y=input("Enter the book name:")
+            stud.remove(y)
+      elif(choie==3):
+            histy=['mangolia','chengiskhan','chin']
+            print(histy)
+            z=input("Enter the book name:")
+            histy.remove(z)
+      else:
+            print("Invalid choice")
+   elif(choice==2):
+       print("Section.1=fiction books")
+       print("Section.2=study books")
+       print("Section.3=history books")
+       choie=int(input("Enter your choice="))
+       if(choie==1):
+            fict=['the ring','god war','the great wall']
+            print(fict)
+            x=input("Enter the book name:")
+            print(fict.append(x))
+            days=int(input("Enter the number of days:"))
+            if(days<=7):
+              rent=days*10
+              print("Your rent amount:",rent)
+            else:
+              print("Your membership card was cancelled")  
+       elif(choie==2):
+            stud=['Science','Tamil','English']
+            print(stud)
+            y=input("Enter the book name:")
+            print(stud.append(y))
+            days=int(input("Enter the number of days:"))
+            if(days<=7):
+              rent=days*10
+              print("Your rent amount:",rent)
+            else:
+              print("Your membership card was cancelled")
+       elif(choie==3):
+            histy=['mangolia','chengiskhan','chin']
+            print(histy)
+            z=input("Enter the book name:")
+            print(histy.append(z))
+            days=int(input("Enter the number of days:"))
+            if(days<=7):
+              rent=days*10
+              print("Your rent amount:",rent)
+            else:
+              print("Your membership card was cancelled")
+       else:
+            print("Invalid choice")
+   else:
+            print("Invalid choice")
+            
