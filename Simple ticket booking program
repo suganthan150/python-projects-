@@ -1,0 +1,24 @@
+print("            BOOK MY SHOW")
+print("1.LIK")
+print("2.TN2026")
+seats=['s1','s2','s3']
+seatss=['s1','s2','s3']
+y=int(input("Enter the looping time:"))
+for i in range(0,y):
+  movie=int(input("Enter the movie name:"))
+  if(movie==1):
+        print("Screen.1")
+        print(seats)
+        seat=input("Enter your seat:")
+        seats.remove(seat)
+        cost=250
+        print("Ticket amount is:",cost)
+  elif(movie==2):
+        print("Screen.2")
+        print(seatss)
+        seat=input("Enter your seat:")
+        seatss.remove(seat)
+        cost=250
+        print("Ticket amount is:",cost)
+  else:
+        print("Invalid choice")
