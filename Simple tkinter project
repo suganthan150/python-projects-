@@ -1,0 +1,39 @@
+import tkinter
+from tkinter import *
+s=Tk()
+s.geometry("800x800")
+s.config(bg="purple")
+def ad():
+    a=int(m.get())
+    b=int(n.get())
+    b=a+b
+    k=Label(s,text=b,font=("Script MT Bold",13),bg="black",fg="white").place(x=100,y=150)
+def sub():
+    a=int(m.get())
+    b=int(n.get())
+    d=a-b
+    t=Label(s,text=d,font=("Script MT Bold",13),bg="black",fg="white").place(x=100,y=190)
+def mul():
+    a=int(m.get())
+    b=int(n.get())
+    p=a*b
+    l=Label(s,text=p,font=("Script MT Bold",13),bg="black",fg="white").place(x=100,y=230)
+def div():
+    a=int(m.get())
+    b=int(n.get())
+    g=a/b
+    y=Label(s,text=g,font=("Script MT Bold",13),bg="black",fg="white").place(x=100,y=270)
+m=Label(s,text="First number",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=10)
+m=Entry(s)
+m.place(x=150,y=10)
+n=Label(s,text="Second number",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=40)
+n=Entry(s)
+n.place(x=150,y=40)
+e=Button(s,text="Addition",font=("Script MT Bold",13),bg="black",fg="white",command=ad)
+e.place(x=10,y=150)
+f=Button(s,text="Subraction",font=("Script MT Bold",13),bg="black",fg="white",command=sub)
+f.place(x=10,y=190)
+h=Button(s,text="Multiplication",font=("Script MT Bold",13),bg="black",fg="white",command=mul)
+h.place(x=10,y=230)
+j=Button(s,text="Division",font=("Script MT Bold",13),bg="black",fg="white",command=div)
+j.place(x=10,y=270)
