@@ -1,0 +1,127 @@
+bill=0
+amt1=0
+amt2=0
+amt3=0
+amt4=0
+amt5=0
+amt6=0
+amt7=0
+print("                               SMS HOTEL")
+rt={1:"AC ROOM",2:"NON AC ROOM"}
+print(rt)
+r=int(input("Enter your choice:"))
+if(r==1):
+   room={1:"room1",2:"room2",3:"room3"}
+   print(room)
+   ruum=input("enter your room number:")
+   if(ruum>3):
+      print("Not available")
+   char=1000
+   day=int(input("enter your no of days="))
+   tot=char*day
+   print("charges for your room",tot)
+   amt1+=tot
+   while True:
+    menu={1:"Dosa=50",2:"Idly=10",3:"puri=70"}
+    print(menu)
+    ch=int(input("Enter your dish code:"))
+    if(ch==1):
+        qnty=int(input("Enter the number of dosa you want:"))
+        amount=qnty*50
+        print("amount=",amount)
+        amt2+=amount
+        con=input("do you want to continue[yes,no]:")
+    elif(ch==2):
+        qnty=int(input("Enter the number of idly you want:"))
+        amount=qnty*10
+        print("amount=",amount)
+        amt3+=amount
+        con=input("do you want to continue[yes/no]=")
+        
+    elif(ch==3):
+        qnty=int(input("Enter the number of puri you want:"))
+        amount=qnty*70
+        print("amount=",amount)
+        amt4+=amount
+        con=input("do you want to continue[yes/no]=")
+        
+    else:
+         print("That food was not available")
+         con=input("do you want to continue[yes/no]=")
+   prk={1:"Four wheeler",2:"Two wheeler"}
+   print(prk)
+   whl=int(input("Enter your vehicle code:"))
+   if(whl==1):
+     df=int(input("enter the no of days:"))
+     charges=df*100
+     print("Charges your vehicle=",charges)
+     amt5+=charges
+   elif(whl==2):
+     df=int(input("enter the no of days:"))
+     charges=df*50
+     print("Charges for your vehicle=",charges)
+     amt6+=charges
+   else:
+    print("not allowed")
+elif(r==2):
+   room={1:"room1",2:"room2",3:"room3"}
+   print(room)
+   ruum=input("enter your room number:")
+   if(ruum>3):
+      print("Not available")
+   char=500
+   day=int(input("enter your no of days="))
+   tot=char*day
+   print("charges for your room",tot)
+   amt1+=tot
+   while True:
+    menu={1:"Dosa=50",2:"Idly=10",3:"puri=70"}
+    print(menu)
+    ch=int(input("Enter your dish code:"))
+    if(ch==1):
+        qnty=int(input("Enter the number of dosa you want:"))
+        amount=qnty*50
+        print("amount=",amount)
+        amt2+=amount
+        con=input("do you want to continue[yes/no]=")
+       
+    elif(ch==2):
+        qnty=int(input("Enter the number of idly you want:"))
+        amount=qnty*10
+        print("amount=",amount)
+        amt3+=amount
+        con=input("do you want to continue[yes/no]=")
+      
+    elif(ch==3):
+        qnty=int(input("Enter the number of puri you want:"))
+        amount=qnty*70
+        print("amount=",amount)
+        amt4+=amount
+        con=input("do you want to continue[yes/no]=")
+        
+    else:
+         print("That food was not available")
+         con=input("do you want to continue[yes/no]=")
+   prk={1:"Four wheeler",2:"Two wheeler"}
+   print(prk)
+   whl=int(input("Enter your vehicle code:"))
+   if(whl==1):
+     df=int(input("enter the no of days:"))
+     charges=df*100
+     print("Charges your vehicle=",charges)
+     amt5+=charges
+   elif(whl==2):
+     df=int(input("enter the no of days:"))
+     charges=df*50
+     print("Charges for your vehicle=",charges)
+     amt6+=charges
+   else:
+     print("not allowed")
+
+else:
+   print("sorry")
+bill=amt1+amt2+amt3+amt4+amt5+amt6
+print("Total bill amount=",bill)
+    
+
+    
