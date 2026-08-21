@@ -1,0 +1,80 @@
+print("           Train Ticket")
+y=int(input("Enter the looping time:"))
+for i in range(0,y):
+    print("Apartment.1")
+    print("Apartment.2")
+    print("Apartment.3")
+    aprt=int(input("Enter the Apartment Number:"))
+    if(aprt==1):
+        print("1.sleeper couch")
+        print("2.non ac")
+        print("ac couch")
+        couch=int(input("Enter the couch number:"))
+        if(couch==1):
+                  sit1=['s1','s2','s3']
+                  st=input("Enter the seat number:")
+                  sit1.remove(st)
+                  print(sit1)
+                  ch=100
+                  print("Your ticket amount is:",ch)
+        elif(couch==2):
+                  sit2=['s4','s5','s6']
+                  sit2.remove(st)
+                  print(sit2)
+                  ch=100
+                  print("Your ticket amount is:",ch)
+        elif(couch==3):
+                  sit3=['s7','s8','s9']
+                  sit3.remove(st)
+                  print(sit3)
+                  ch=100
+                  print("Your ticket amount is:",ch)
+        else:
+                print("the sit was not available")
+    elif(aprt==2):
+           if(couch==1):
+                  sit1=['s1','s2','s3']
+                  st=input("Enter the seat number:")
+                  sit1.remove(st)
+                  print(sit1)
+                  ch=200
+                  print("Your ticket amount is:",ch)
+           elif(couch==2):
+                  sit2=['s4','s5','s6']
+                  sit2.remove(st)
+                  print(sit2)
+                  ch=200
+                  print("Your ticket amount is:",ch)
+           elif(couch==3):
+                  sit3=['s7','s8','s9']
+                  sit3.remove(st)
+                  print(sit3)
+                  ch=200
+                  print("Your ticket amount is:",ch)
+           else:
+                print("the sit was not available")
+    elif(aprt==3):   
+          if(couch==1):
+                  sit1=['s1','s2','s3']
+                  st=input("Enter the seat number:")
+                  sit1.remove(st)
+                  print(sit1)
+                  ch=500
+                  print("Your ticket amount is:",ch)
+          elif(couch==2):
+                  sit2=['s4','s5','s6']
+                  sit2.remove(st)
+                  print(sit2)
+                  ch=500
+                  print("Your ticket amount is:",ch)
+          elif(couch==3):
+                  sit3=['s7','s8','s9']
+                  sit3.remove(st)
+                  print(sit3)
+                  ch=500
+                  print("Your ticket amount is:",ch)
+          else:
+                print("the sit was not available")
+    else:
+            print("Invalid choice")
+            
