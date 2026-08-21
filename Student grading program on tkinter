@@ -1,0 +1,107 @@
+import tkinter
+from tkinter import *
+s=Tk()
+s.geometry("500x500")
+s.config(bg="orange")
+def tot():
+     a=int(z.get())
+     b=int(y.get())
+     c=int(x.get())
+     d=int(w.get())
+     e=int(v.get())
+     tot=a+b+c+d+e
+     t=Label(s,text=tot,font=("Script MT Bold",13),bg="black",fg="white").place(x=75,y=325)
+def ave():
+     m=int(z.get())
+     n=int(y.get())
+     o=int(x.get())
+     p=int(w.get())
+     q=int(v.get())
+     tot=m+n+o+p+q
+     average=tot/5
+     t=Label(s,text=average,font=("Script MT Bold",13),bg="black",fg="white").place(x=75,y=370)
+def grade():
+     m=int(z.get())
+     n=int(y.get())
+     o=int(x.get())
+     p=int(w.get())
+     q=int(v.get())
+     tot=m+n+o+p+q
+     tb="good marks"
+     rr="try next time"
+     if tot>=450:
+          rk=Label(s,text=tb,font=("Script MT Bold",13),bg="black",fg="white").place(x=75,y=415)
+     else:
+          rh=Label(s,text=rr,font=("Script MT Bold",13),bg="black",fg="white").place(x=75,y=415)
+
+k=Label(s,text="name",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=10)
+e=Entry(s)
+e.place(x=75,y=10)
+j=Label(s,text="age",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=55)
+e=Entry(s)
+e.place(x=75,y=55)
+z=Label(s,text="tamil",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=100)
+z=Entry(s)
+z.place(x=75,y=100)
+y=Label(s,text="English",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=145)
+y=Entry(s)
+y.place(x=75,y=145)
+x=Label(s,text="Maths",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=190)
+x=Entry(s)
+x.place(x=75,y=190)
+w=Label(s,text="Science",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=235)
+w=Entry(s)
+w.place(x=75,y=235)
+v=Label(s,text="Social",font=("Script MT Bold",13),bg="black",fg="white").place(x=10,y=280)
+v=Entry(s)
+v.place(x=75,y=280)
+u=Button(s,text="Total",font=("Script MT Bold",13),bg="black",fg="white",command=tot)
+u.place(x=10,y=325)
+t=Button(s,text="Average",font=("Script MT Bold",13),bg="black",fg="white",command=ave)
+t.place(x=10,y=370)
+i=Button(s,text="Grade-",font=("Script MT Bold",13),bg="black",fg="white",command=grade)
+i.place(x=10,y=415)
+s.mainloop()
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
