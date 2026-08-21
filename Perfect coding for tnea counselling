@@ -1,0 +1,300 @@
+print("         TNEA COUNSELLING")
+cut=int(input("Enter your cutoff:"))
+if(cut<=200 and cut>190):
+    college={1:'CEG CAMPUS',2:'MIT CAMPUS',3:'PSG CAMPUS',4:'CIT CAMPUS'}
+    print(college)
+    cd=int(input("Enter your college code:"))
+    if(cd==1):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=int(input("Enter your course code:"))
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==2):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=300000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=350000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==3):
+        print("Your college is:",college[1])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=230000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=190000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=290000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==4):
+        print("Your college is:",college[1])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    else:
+        print("This college for not avalible for your cutoff")
+elif(cut<=190 and cut>180):
+    college={1:'SRM CAMPUS',2:'PANIMALAR CAMPUS',3:'REC CAMPUS',4:'VSB'}
+    print(college)
+    cd=int(input("Enter your college code:"))
+    if(cd==1):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=int(input("Enter your course code:"))
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==2):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=300000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=350000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==3):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=230000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=190000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=290000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==4):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    else:
+        print("This college was not available")
+elif(cut<=180 and cut>160):
+    college={1:'rit CAMPUS',2:'sastra CAMPUS',3:'ssn CAMPUS',4:'sathyabama CAMPUS'}
+    print(college)
+    cd=int(input("Enter your college code:"))
+    if(cd==1):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=int(input("Enter your course code:"))
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==2):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=300000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=350000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==3):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=330000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=390000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=290000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==4):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    else:
+         print("This college was not available for your cutoff")
+elif(cut<=160 and cut>100):
+    college={1:'CMG CAMPUS',2:'NIT CAMPUS',3:'nehru CAMPUS',4:'esha CAMPUS'}
+    print(college)
+    cd=int(input("Enter your college code:"))
+    if(cd==1):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=int(input("Enter your course code:"))
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==2):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=300000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=350000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==3):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=330000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=390000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=290000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    elif(cd==4):
+        print("Your college is:",college[cd])
+        cs={1:'cse',2:'civil',3:'ai and ml'}
+        print(cs)
+        course=input("Enter your course code:")
+        print(cs[course])
+        if(course==1):
+          fees=200000
+          print("Your fees for four years is:",fees)
+        elif(course==2):
+            fees=150000
+            print("Your fees for four year is:",fees)
+        elif(course==3):
+            fees=250000
+            print("Your fees for four year is:",fees)
+        else:
+            print("That course was not available")
+    else:
+         print("This college was not available for your cutoff")
+else:
+    print("No college for your cutoff")
